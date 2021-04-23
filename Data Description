@@ -1,0 +1,18 @@
+The Problem:
+Store plans to open between 90-120 new stores every year. Acquisition managers will receive several thousand offers of potential ‘prospect stores’ each year. They need to assess each prospect store location and decide if they wish to open an NKD store there. If a newly opened store makes less than approximately €350k gross turnover a year it typically will be a loss-making store. 
+The focus of this problem is twofold:
+•	To determine what location factors are indicative that a new store will be successful.
+•	To come up with a strategy/process for assessing if a new prospect store will be successful and rejecting stores that are likely to fail.
+Details:
+In the included file NKD_store_database_for_homework.xlsx is a dataset of existing NKD stores with their annual gross turnover in years 2016 -2019 (in red). In addition, we have included in the blue columns information about the location of the store. Acquisition managers would have all the information in the brown columns and the blue columns (but not the red columns) when deciding if they wish to rent a prospect store.   
+Task 1:
+Determine what location factors are correlated with gross turnover and hence likely indicators that the store will be successful. You should produce a few slides with graphs (produced with any tool you like) explaining which features you think are most important.
+Task 2:
+Can you determine a strategy for assessing a new prospect store, given the information in the blue columns? Can you estimate the likely accuracy of this strategy? This should be again explained in a slide deck. How and what would you implement in the business? 
+HINT: It is suggested that this strategy would benefit from a machine learning model, combining relevant location factors to predict annual turnover. It is possible that this model will not achieve a high level of accuracy. The problem is to identify a strategy for avoiding opening failing stores and so the challenge is can you still use an imperfect machine learning model in this strategy?
+If you wish, feel free to supplement this location data with any other datasets that you think may assist the problem.
+Work to be submitted:
+•	You should as a minimum submit a slide deck explaining your solution to the two tasks.
+•	You should also submit any code that have written as part of this work.
+•	Feel free to also submit any other supporting work, which you think assists in solving the problem.
+   
